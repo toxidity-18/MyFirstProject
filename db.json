@@ -1,0 +1,77 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Multec Cutting Disc",
+      "image": "images/cutting disc2.png",
+      "description": "High-quality cutting disc for various materials.",
+      "price": 750,
+      "category": "Cutting Disc"
+    },
+    {
+      "id": 2,
+      "name": "Multec Stone Cutter Disc",
+      "image": "images/stone cutter.png",
+      "description": "Stone cutter disc for precision cutting.",
+      "price": 150,
+      "category": "Stone Cutter Disc"
+    },
+    {
+      "id": 3,
+      "name": "Brass Rods",
+      "image": "Brass_rods.Jpg",
+      "description": "Durable brass rods for various applications.",
+      "price": 120,
+      "category": "Brass"
+    },
+    {
+      "id": 4,
+      "name": "Brass Powder",
+      "image": "images/brass powder.jpg",
+      "description": "Fine brass powder for brazing applications.",
+      "price": 450,
+      "category": "Brass"
+    }
+  ],
+  "pricingPlans": [
+    {
+      "id": 1,
+      "name": "Basic Plan",
+      "price": 10080,
+      "features": [
+        "10 days",
+        "A whole bunch of brass rods",
+        "Safety guide",
+        "Insurance",
+        "10 Days Free Delivery",
+        "24/7 Support"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Standard Plan",
+      "price": 15000,
+      "features": [
+        "10 days",
+        "One box of stone cutters",
+        "Safety guide",
+        "Insurance",
+        "10 Days Free Delivery",
+        "24/7 Support"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Premium Plan",
+      "price": 12000,
+      "features": [
+        "10 days",
+        "One box of cutting discs",
+        "Safety guide",
+        "Insurance",
+        "10 Days Free Delivery",
+        "24/7 Support"
+      ]
+    }
+  ]
+}

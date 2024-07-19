@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatunganga Auto Spares Order and Delivery Site</title>
+    <link rel="shortcut icon" href="profile.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="font-serif bg-gray-100 text-gray-900">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex items-center justify-between px-4 py-2">
+            <a href="#" class="logo text-xl font-bold flex items-center">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Gatunganga
+            </a>
+            <form action="#" class="search-form flex items-center">
+                <input type="text" placeholder="Search here..." name="search" id="searchbox"
+                    class="border-2 border-gray-300 rounded-l px-4 py-2 focus:outline-none">
+                <button-type="submit" class="border-2 border-gray-300 bg-gray-200 rounded-r px-4 py-2 hover:bg-gray-300">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="icons flex items-center space-x-4">
+                <div id="menu-btn" class="fas fa-bars cursor-pointer"></div>
+                <div id="search-btn" class="fas fa-search cursor-pointer"></div>
+                <div id="user-btn" class="fas fa-user cursor-pointer"></div>
+                <div id="share-btn" class="fas fa-share cursor-pointer"></div>
+            </div>
+            <nav class="navbar hidden lg:flex items-center space-x-4">
+                <a href="#home" class="hover:text-blue-500">Home</a>
+                <a href="#products" class="hover:text-blue-500">Products</a>
+                <a href="#blogs" class="hover:text-blue-500">Blogs</a>
+                <a href="#contact" class="hover:text-blue-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home py-12 bg-white">
+        <div class="container mx-auto flex items-center justify-between px-4">
+            <div class="w-full lg:w-1/2 lg:order-2">
+                <img src="images/profile.jpeg" alt="Home Image" class="w-full rounded-lg shadow-lg">
+            </div>
+            <div class="w-full lg:w-1/2 px-4 lg:px-8 lg:order-1">
+                <h3 class="text-3xl lg:text-4xl font-bold mb-4 leading-tight">Gatunganga Auto Spares Order and Delivery Site</h3>
+                <p class="text-lg mb-6 lg:mb-8">We make sure skills meet quality.</p>
+                <a href="#products" class="btn bg-blue-500 text-white py-2 px-6 rounded-lg mt-4 inline-block">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-container bg-gray-200 py-12">
+        <div class="container mx-auto px-4">
+            <form action="#" class="flex flex-wrap justify-center items-center space-x-4">
+                <div class="inputBox flex items-center space-x-2 mb-4">
+                    <label for="location" class="text-gray-700">Where</label>
+                    <input type="text" id="location" placeholder="Enter location"
+                        class="border-2 border-gray-300 rounded px-4 py-2 focus:outline-none">
+                </div>
+                <div class="inputBox flex items-center space-x-2 mb-4">
+                    <label for="date" class="text-gray-700">When</label>
+                    <input type="date" id="date" class="border-2 border-gray-300 rounded px-4 py-2 focus:outline-none">
+                </div>
+                <div class="inputBox flex items-center space-x-2 mb-4">
+                    <label for="time" class="text-gray-700">Time</label>
+                    <input type="time" id="time" class="border-2 border-gray-300 rounded px-4 py-2 focus:outline-none">
+                </div>
+                <input type="submit" value="Order Now" class="btn bg-blue-500 text-white py-2 px-6 rounded-lg">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages py-12 bg-white" id="products">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl lg:text-4xl font-bold mb-8 text-center">Our Products</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <div class="image mb-4">
+                        <img src="images/cutting disc2.png" alt="Cutting Disc" class="w-full">
+                    </div>
+                    <div class="content">
+                        <h3 class="text-xl font-bold mb-2">Multec Cutting Disc</h3>
+                        <p class="text-gray-700 mb-4">ksh750</p>
+                        <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <div class="image mb-4">
+                        <img src="images/stone cutter.png" alt="Stone Cutter" class="w-full">
+                    </div>
+                    <div class="content">
+                        <h3 class="text-xl font-bold mb-2">Multec Stone Cutter Disc</h3>
+                        <p class="text-gray-700 mb-4">ksh150</p>
+                        <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <div class="image mb-4">
+                        <img src="images/Brass rod.JPG" alt="Brass Rod" class="w-full">
+                    </div>
+                    <div class="content">
+                        <h3 class="text-xl font-bold mb-2">Brass Rods</h3>
+                        <p class="text-gray-700 mb-4">ksh120</p>
+                        <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <div class="image mb-4">
+                        <img src="images/brass powder.jpg" alt="Brass Powder" class="w-full">
+                    </div>
+                    <div class="content">
+                        <h3 class="text-xl font-bold mb-2">Brass Powder</h3>
+                        <p class="text-gray-700 mb-4">ksh450</p>
+                        <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing py-12 bg-gray-200" id="pricing">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl lg:text-4xl font-bold mb-8 text-center">Our Pricing</h1>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="box bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Basic Plan</h3>
+                    <div class="price flex items-center mb-4">
+                        <span class="text-xl font-bold">ksh</span>
+                        <span class="text-3xl font-bold">10080</span>
+                        <span class="text-xl font-bold">/mo</span>
+                    </div>
+                    <ul class="text-sm text-gray-700 mb-4">
+                        <li>5GB Storage</li>
+                        <li>10GB Bandwidth</li>
+                        <li>5 Email Accounts</li>
+                        <li>Free Support</li>
+                    </ul>
+                    <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                </div>
+
+                <div class="box bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Pro Plan</h3>
+                    <div class="price flex items-center mb-4">
+                        <span class="text-xl font-bold">ksh</span>
+                        <span class="text-3xl font-bold">20000</span>
+                        <span class="text-xl font-bold">/mo</span>
+                    </div>
+                    <ul class="text-sm text-gray-700 mb-4">
+                        <li>10GB Storage</li>
+                        <li>20GB Bandwidth</li>
+                        <li>10 Email Accounts</li>
+                        <li>Free Support</li>
+                    </ul>
+                    <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Order Now</a>
+                </div>
+
+                <div class="box bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-4">Enterprise Plan</h3>
+                    <div class="price flex items-center mb-4">
+                        <span class="text-xl font-bold">Custom</span>
+                    </div>
+                    <ul class="text-sm text-gray-700 mb-4">
+                        <li>Custom Storage</li>
+                        <li>Custom Bandwidth</li>
+                        <li>Unlimited Email Accounts</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded-lg inline-block">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4">
+            <p class="text-sm">&copy; 2024 Gatunganga Auto Spares Order and Delivery Site. All rights reserved.</p>
+            <div class="social-icons flex items-center space-x-4">
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
